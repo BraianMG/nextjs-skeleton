@@ -9,7 +9,18 @@
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "plugin:react/jsx-runtime"
+    "plugin:react/jsx-runtime",
+    "testing-library"
+  ],
+  "overrides": [
+    // Only uses Testing Library lint rules in test files
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": ["plugin:testing-library/react"]
+    }
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
