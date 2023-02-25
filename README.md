@@ -1,38 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <a href="https://nextjs.org/" target="blank">
+    <img src="https://camo.githubusercontent.com/e1e113df83e7731fdb90f6f0ab2eeb155fd1b48c27d99814dcf1c23c0acdc6a2/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313636323133303535392f6e6578746a732f49636f6e5f6461726b5f6261636b67726f756e642e706e67" width="200" alt="Next Logo" />
+  </a>
+</p>
+<h1 style="text-align: center; margin-bottom: -10px; font-size: 30px;"><strong>NextJs-skeleton</strong></h1>
 
-## Getting Started
+---
 
-First, run the development server:
+<div id="top"></div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<details>
+  <summary style="font-size: 25px"><strong>Table of Contents</strong></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About the project</a>
+      <ul>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#used-technologies">Used technologies</a></li>
+        <li><a href="#features-offered-by-this-skeleton">Features offered by this skeleton</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#setup">Setup</a>
+      <ul>
+        <li><a href="#for-development">For development</a></li>
+        <li><a href="#for-production">For production</a></li>
+      </ul>
+    </li>
+    <li><a href="#stay-in-touch">Stay in touch</a></li>
+  </ol>
+</details>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## __About the project__
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### __Description__
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This repository is a skeleton with the bases to start a new UI with the NextJs framework.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p align="right">(<a href="#top">Back to top</a>)</p>
 
-## Learn More
+### __Used technologies__
 
-To learn more about Next.js, take a look at the following resources:
+- [NodeJs v16.19.0](https://nodejs.org/es/)
+- [NextJs](https://nextjs.org/)
+- [Jest](https://jestjs.io/)
+- [Testing Library](https://testing-library.com/)
+<!-- - [Apollo GraphQL](https://www.apollographql.com/) -->
+<!-- - [Docker](https://www.docker.com/) -->
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<p align="right">(<a href="#top">Back to top</a>)</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### __Features offered by this skeleton__
 
-## Deploy on Vercel
+- ESLint and Prettier configured
+- Basic file structure defined
+- Environment configured to perform unit tests with Jest and Testing Library
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="right">(<a href="#top">Back to top</a>)</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## __Setup__
+
+### __For development__
+- Create .env file from .env.example and populate with corresponding values
+<!-- - Have Docker installed and running -->
+- Install dependencies: `yarn install`
+- Run the app: 
+  - Development: `yarn dev`
+  - Production mode: `yarn start`
+- Run tests: 
+  - Unit tests: `yarn test`
+  <!-- - e2e tests: `yarn run test:e2e` -->
+  - Test coverage: `yarn run test:cov`
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
+
+### __For production__
+- Create .env file from .env.example and populate with corresponding values
+- TBD next steps
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
+
+### __Stay in touch__
+
+- Author - [Braian Gonzales](https://kamilmysliwiec.com)
+- Website - [https://braiangonzales.netlify.app/](https://braiangonzales.netlify.app/)
+- Email - [braian.gonzales77@gmail.com](mailto:braian.gonzales77@gmail.com)
+- LinkdIn - [in/braiangonzales/](https://www.linkedin.com/in/braiangonzales/)
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
